@@ -11,4 +11,5 @@ jobs:
        - name: Docker Build
          run: docker build -t naveenapalanisamy/ml-model-22it027 .
        - name: Docker Images
-         run: docker images
+         run: docker images
+         
