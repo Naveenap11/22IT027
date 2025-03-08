@@ -4,11 +4,11 @@ jobs:
   docker-job:
     runs-on: ubuntu-latest
     steps:
-      - name: print your register number 
-        run: echo "Hello World - 22IT027"
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Docker Build
-        run: docker build -t naveenapalanisamy/ml-model-22IT027 .
-      - name: Docker Images
-        run: docker images
+       - name: print your Register Number
+         run: echo "Hello world - 22it027"    
+       - name: Checkout
+         uses: actions/checkout@v4
+       - name: Docker Build
+         run: docker build -t naveenapalanisamy/ml-model-22it027 .
+       - name: Docker Images
+         run: docker images
